@@ -1,4 +1,4 @@
-# QCY Desktop App
+# Open QCY
 
 Controle local de cancelamento de ruído do **QCY H3 comum** pelo computador, sem precisar abrir o aplicativo QCY no celular durante o uso.
 
@@ -64,8 +64,8 @@ O último comando abre uma janela de demonstração; feche-a para continuar. Tki
 ### 2. Clone e abra
 
 ```sh
-git clone https://github.com/feapolina/qcy-desktop-app.git
-cd qcy-desktop-app
+git clone https://github.com/feapolina/open-qcy.git
+cd open-qcy
 python3 -m qcy_h3 gui
 ```
 
@@ -82,8 +82,8 @@ Na primeira execução, os endereços ficam vazios. Preencha os endereços do se
 Suporte físico ainda experimental. Use Windows 11 com Bluetooth LE e Python 3.11+ incluindo Tcl/Tk. Instale Python e Git pelas distribuições oficiais; confira `py --version` no PowerShell.
 
 ```powershell
-git clone https://github.com/feapolina/qcy-desktop-app.git
-cd qcy-desktop-app
+git clone https://github.com/feapolina/open-qcy.git
+cd open-qcy
 py -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements-windows.txt
 .\.venv\Scripts\python -m qcy_h3 gui
